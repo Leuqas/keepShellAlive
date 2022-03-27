@@ -1,0 +1,14 @@
+ConfigVersion: 1.25.0
+
+
+# ONLY CHANGE THE CONTENTS BELOW THIS TEXT
+
+
+# Your discord bot token
+BotToken: "OTUwNTM3ODM0MzU0MzI3NjQ0.YiaXVw.H18423IRfl48_33i_1OUjaJu6_0"
+
+# Your discord channel name and id
+Channels: {"minecraft-chat": "951653248643764234"}
+
+
+# ONLY CHANGE THE CONTENTS ABOVE THIS TEXT
