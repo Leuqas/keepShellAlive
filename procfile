@@ -1,2 +1,1 @@
-release: chmod u+x startServer.sh && ./startServer.sh
-web: bash ./startServer.sh
+worker: node ./bot/index.js
