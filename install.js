@@ -5,7 +5,7 @@ function exec(cmd, handler = function(error, stdout, stderr){console.log(stdout)
 }
 
 //installs
-exec('wget https://drive.google.com/file/d/1KVy0HTi0qWB1ttlQXa4tr8NxyzwAbJQC/view?usp=sharing')
+exec('wget https://drive.google.com/uc?export=download&id=1KVy0HTi0qWB1ttlQXa4tr8NxyzwAbJQC')
 exec('bash installs')
 //installs
 
