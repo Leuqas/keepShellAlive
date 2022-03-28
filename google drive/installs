@@ -34,7 +34,6 @@ echo ""
 echo ""
 echo ""
 node ~/keepShellAlive-main/setup.js
-sleep 3
 cd ~
 cd keepShellAlive-main/
 rm -r -d google\ drive/
