@@ -29,5 +29,8 @@ echo "                   |   <  |  __/ |  __/ | |_) |  ____) | | | | | |  __/ | 
 echo "                   |_|\_\  \___|  \___| | .__/  |_____/  |_| |_|  \___| |_| |_| /_/    \_\ |_| |_|   \_/    \___|                          "
 echo "                                        | |                                                                                                "
 echo "                                        |_|                                                                                                "
-sleep 5
+sleep 3
+echo ""
+echo ""
+echo ""
 node ~/keepShellAlive-main/setup.js
