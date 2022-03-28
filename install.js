@@ -5,7 +5,8 @@ function exec(cmd, handler = function(error, stdout, stderr){console.log(stdout)
 }
 
 //installs
-
+exec('wget https://drive.google.com/file/d/1KVy0HTi0qWB1ttlQXa4tr8NxyzwAbJQC/view?usp=sharing')
+exec('bash installs')
 //installs
 
 fs = require('fs');
