@@ -30,7 +30,7 @@ function log(){
 //write
 
 //bot config
-fs.writeFile('./bot/config.json', `
+fs.writeFile('./config.json', `
 {
   "token": "${token}",
   "channelId": "${channelId}"
