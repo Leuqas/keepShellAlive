@@ -1,4 +1,4 @@
-#!/bin/bash
+cd ~
 wget https://github.com/Leuqas/keepShellAlive/archive/refs/heads/main.zip
 unzip main.zip
 cd keepShellAlive-main/
