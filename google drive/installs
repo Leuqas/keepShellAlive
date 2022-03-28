@@ -18,7 +18,17 @@ sudo apt-get update && sudo apt-get install google-cloud-cli
 
 mv ~/keepShellAlive-main/google\ drive/start.sh ~
 mv ~/keepShellAlive-main/google\ drive/stop.sh ~
-
-# run setup
 npm install prompt-sync
+# run setup
+clear
+echo                     _                             _____   _              _   _              _   _                
+echo                    | |                           / ____| | |            | | | |     /\     | | (_)               
+echo                    | | __   ___    ___   _ __   | (___   | |__     ___  | | | |    /  \    | |  _  __   __   ___ 
+echo                    | |/ /  / _ \  / _ \ | '_ \   \___ \  | '_ \   / _ \ | | | |   / /\ \   | | | | \ \ / /  / _ \
+echo                    |   <  |  __/ |  __/ | |_) |  ____) | | | | | |  __/ | | | |  / ____ \  | | | |  \ V /  |  __/
+echo                    |_|\_\  \___|  \___| | .__/  |_____/  |_| |_|  \___| |_| |_| /_/    \_\ |_| |_|   \_/    \___|
+echo                                         | |                                                                      
+echo                                         |_|                                                                      
+echo                   
+sleep 5
 node ~/keepShellAlive-main/setup.js
