@@ -1,2 +1,1 @@
-worker: node bot/index.js
-web: java -jar server.jar
+worker: node index.js
