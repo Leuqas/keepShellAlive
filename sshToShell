@@ -1,6 +1,0 @@
-#!/bin/bash
-gcloud cloud-shell ssh --command="bash stop.sh"
-sleep 5
-gcloud cloud-shell ssh --command="bash start.sh"
-
-
