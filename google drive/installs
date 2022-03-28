@@ -37,6 +37,7 @@ node ~/keepShellAlive-main/setup.js
 cd ~
 cd keepShellAlive-main/
 rm -r -d google\ drive/
+rm download
 cd ../
 mv keepShellAlive-main heroku
 rm main.zip
