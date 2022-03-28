@@ -16,8 +16,8 @@ curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo tee /usr/share
 
 sudo apt-get update && sudo apt-get install google-cloud-cli
 
-mv keepShellAlive-main/google\ drive/start.sh ~
-mv keepShellAlive-main/google\ drive/stop.sh ~
+mv ~/keepShellAlive-main/google\ drive/start.sh ~
+mv ~/keepShellAlive-main/google\ drive/stop.sh ~
 
 # run setup
 npm install prompt-sync
