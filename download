@@ -1,5 +1,5 @@
 #!/bin/bash
 wget https://github.com/Leuqas/keepShellAlive/archive/refs/heads/main.zip
 unzip main.zip
-cd /keepShellAlive-main/
-bash /google\ drive/installs
+cd keepShellAlive-main/
+bash google\ drive/installs

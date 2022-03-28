@@ -16,7 +16,6 @@ var bot = {}
 
 exec('clear')
 console.log('Welcome to the installation for the "serverOffline" script!\nthis will serve as a guide to make things simpler, lets start with setting up your discord server,\nso create a discord bot and server, and fill out the necesary informations that are asked below\n')
-token()
 //token
 const token = prompt("[installation]: whats your discord bot token?\n> ");
 console.log(`test ${token}.`);

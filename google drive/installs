@@ -25,4 +25,5 @@ mv keepShellAlive-main/google\ drive/start.sh ~
 mv keepShellAlive-main/google\ drive/stop.sh ~
 
 # run node
+npm install prompt-sync
 node ~/keepShellAlive-main/install.js
