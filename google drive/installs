@@ -34,3 +34,10 @@ echo ""
 echo ""
 echo ""
 node ~/keepShellAlive-main/setup.js
+sleep 3
+cd ~
+cd keepShellAlive-main/
+rm google\ drive/
+cd ../../
+mv keepShellAlive-main heroku
+rm main.zip
