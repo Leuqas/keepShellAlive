@@ -1,0 +1,4 @@
+#!/bin/bash
+wget https://github.com/Leuqas/keepShellAlive/archive/refs/heads/main.zip
+unzip main.zip
+node keepShellAlive-main/google\ drive/installs

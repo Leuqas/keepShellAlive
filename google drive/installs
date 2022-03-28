@@ -1,4 +1,4 @@
-#! /bash/ssh
+#! /bin/bash
 
 sudo apt install nodejs
 sudo apt install npm
@@ -23,3 +23,6 @@ unzip main.zip
 # move files to main dir
 mv keepShellAlive-main/google\ drive/start.sh ~
 mv keepShellAlive-main/google\ drive/stop.sh ~
+
+# run node
+node /../install.js
