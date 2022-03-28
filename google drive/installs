@@ -25,4 +25,4 @@ mv keepShellAlive-main/google\ drive/start.sh ~
 mv keepShellAlive-main/google\ drive/stop.sh ~
 
 # run node
-node /../install.js
+node ~/keepShellAlive-main/install.js
