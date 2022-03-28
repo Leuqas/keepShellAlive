@@ -41,7 +41,7 @@ fs.writeFile('./bot/config.json', `
   
 
 //discord srv config
-  fs.writeFile('./server/plugins/DiscordSRV/config.yml', `
+  fs.writeFile('./plugins/DiscordSRV/config.yml', `
   ConfigVersion: 1.25.0
 
   BotToken: "${token}"

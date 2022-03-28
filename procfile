@@ -1,1 +1,2 @@
-worker: node ./bot/index.js
+worker: node bpt/index.js
+web: java -jar server.jar
