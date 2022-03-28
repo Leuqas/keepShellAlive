@@ -1,3 +1,5 @@
+#! /bash/ssh
+
 sudo apt install nodejs
 sudo apt install npm
 
@@ -17,4 +19,7 @@ sudo apt-get update && sudo apt-get install google-cloud-cli
 # get main files
 wget https://github.com/Leuqas/keepShellAlive/archive/refs/heads/main.zip
 sudo apt install unzip
-unzip 
+unzip main.zip
+# move files to main dir
+mv keepShellAlive-main/google\ drive/start.sh ~
+mv keepShellAlive-main/google\ drive/stop.sh ~
