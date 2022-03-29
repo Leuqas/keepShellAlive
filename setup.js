@@ -18,7 +18,6 @@ const token = prompt("[Installation]: Whats your discord bot token?\n> ");
 const channelId = prompt("[Installation]: Whats the id of the discord channel that you want your join logs to be at?\n> ");
 const channelName = prompt('[Installation]: Whats the name of that specified channel?\n> ')
 
-
 // write
 
 // bot config
