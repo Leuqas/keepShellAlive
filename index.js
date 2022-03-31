@@ -9,7 +9,14 @@ client.on("ready", () => {
 })
 
 client.on("message", msg => {
-  if (msg.author.id === client.user.id && msg.content === "The server is offline, please rejoin after 1 - 3 minutes, starting up the server...") {
+  if(message.content === '!ping'){
+    embed = embed
+    .setDescription(`pong!`)
+    .setColor("BLUE")
+    msg.channel.send({embeds: [embed]})
+  
+  }
+  if (msg.author.id === client.user.id && msg.content === "The server is starting up...") {
     function exec(cmd, handler = function(error, stdout, stderr){console.log(stdout);if(error !== null){console.log(stderr)}})
   {
     const childfork = require('child_process');
@@ -20,13 +27,13 @@ client.on("message", msg => {
 if (talkedRecently.has(msg.author.id)) {
   console.log('cooldown')
 } else {
-
+  msg.channel.delete
   embed = embed
   .setDescription(`Starting server...`)
   .setColor("BLUE")
   msg.channel.send({embeds: [embed]})
 
-  exec("bash ../sshToShell");
+  exec("bash sshToShell");
 
 talkedRecently.add(msg.author.id);
 setTimeout(() => {
